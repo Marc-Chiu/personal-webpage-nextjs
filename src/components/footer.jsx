@@ -14,6 +14,11 @@ export default function Footer() {
             Download my resume
           </a>
         </p>
+        <p className="text-md text-gray-400 dark:text-gray-500 hover:text-gray-800">
+          <a href="https://github.com/Marc-Chiu/personal-webpage-nextjs">
+            View Source Code
+          </a>
+        </p>
         <p className="text-xs text-gray-400 dark:text-gray-500">
           © Help Me Find A Job. All rights reserved.
         </p>

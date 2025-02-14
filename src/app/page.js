@@ -3,7 +3,6 @@
 import WordCloud from '@/components/wordcloud';
 import About from '@/components/about';
 import Footer from '@/components/footer';
-import { useScroll } from 'framer-motion';
 import './globals.css';
 import dynamic from 'next/dynamic';
 
