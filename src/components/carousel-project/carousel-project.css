@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+@media (min-width: 768px) {
+  .project-items {
+    @apply grid grid-cols-5 grid-rows-1 gap-[3.5vw] px-16;
+  }
+
+  .carousel {
+    @apply h-[500vh] bg-white;
+  }
+
+  .contentContainer {
+    @apply h-[100vh] sticky top-0 flex items-center justify-start overflow-hidden;
+  }
+}
